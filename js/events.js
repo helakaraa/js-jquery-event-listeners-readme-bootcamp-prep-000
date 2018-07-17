@@ -19,7 +19,7 @@ function frameIt(){
  
  function submitIt(){
     $(document).on('submit',function(){
-   alert("Hey!");
+   alert("Your form is going to be submitted now.");
     });
  }
 
