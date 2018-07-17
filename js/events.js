@@ -12,7 +12,7 @@ function frameIt(){
 }
  function pressIt(){
    
-   $('.tasty').on('load',function(){
+   $('.tasty').on('keydown',function(){
    alert("Hey!");
  }); 
  }
