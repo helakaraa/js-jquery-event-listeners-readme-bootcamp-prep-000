@@ -12,9 +12,15 @@ function frameIt(){
 }
  function pressIt(){
    
-   $('.tasty').on('keydown',function(){
+   $(document).on('keydown',function(){
    alert("Hey!");
  }); 
+ }
+ 
+ function submitIt(){
+    $(document).on('keydown',function(){
+   alert("Hey!");
+    });
  }
 
 $(document).ready(function(){
