@@ -18,7 +18,7 @@ function frameIt(){
  }
  
  function submitIt(){
-    $(document).on('keydown',function(){
+    $(document).on('submit',function(){
    alert("Hey!");
     });
  }
